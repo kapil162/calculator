@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible", initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <input id="input" />
+    <button id="ans" onclick="solve()">Submit</button>
+    <br /> <br />
+    <div>
+        
+        <button id="block1" onclick="dis('1')">1</button>
+        <button id="block2" onclick="dis('2')">2</button>
+        <button id="block3" onclick="dis('3')">3</button>
+        <button id="plus" onclick="dis('+')">+</button>
+    </div><br>
+    <div>
+        <button id="block4" onclick="dis('4')">4</button>
+        <button id="block5" onclick="dis('5')">5</button>
+        <button id="block6" onclick="dis('6')">6</button>
+        <button id="minus" onclick="dis('-')">-</button>
+    </div><br>
+    <div>
+        <button id="block7" onclick="dis('7')">7</button>
+        <button id="block8" onclick="dis('8')">8</button>
+        <button id="block9" onclick="dis('9')">9</button>
+        <button id="multiply" onclick="dis('*')">x</button>
+    </div><br>
+        <button id="dot" onclick="dis('.')">.</button>
+        <button id="block0" onclick="">0</button>
+        <button id="clear" onclick="clr()">reset</button>
+        <button id="divide" onclick="dis('/')">/</button>
+    </div> 
+    <script src="calculator.js"></script>
+</body>
+</html>
